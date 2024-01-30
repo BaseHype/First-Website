@@ -1,0 +1,35 @@
+body {
+    background: url("../images/1126605.webp");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about-content {
+    max-width: 500px;
+}
+
+.about-content h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32   px;
+    color: powderblue;
+}
+
+.about-content p {
+    background: rgba(10, 10, 10, 0.75);
+    text-align: justify;
+    padding: 10px 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+}
