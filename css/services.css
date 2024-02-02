@@ -1,0 +1,42 @@
+body {
+    background: url("../images/1069255.webp");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 70px auto;
+    text-align: center;
+}
+
+main h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 32px;
+}
+
+.services-container ul {
+    padding: 0;
+}
+
+.services-container ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+}
+
+.services-container ul li img {
+    width: 200px;
+    height: 130px;
+}
+
+.services-container ul li p {
+    background: rgba(250, 250, 250, 0.35);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
